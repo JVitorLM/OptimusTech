@@ -1,0 +1,39 @@
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 1440px;
+    margin: 0 250px;
+}
+
+.paginas {
+    display: flex;
+    gap: 30px;
+}
+
+.paginas__link {
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+.butao__entrar {
+    background: none;
+    border: none;
+    color: var(--cinza);
+}
+
+.butao__cadastrar {
+    padding: 0.5em 0.7em;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+}
+
+
