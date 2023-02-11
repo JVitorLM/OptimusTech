@@ -1,10 +1,10 @@
-.container {
+.container__header {
     align-items: center;
     display: flex;
-    justify-content: space-between;
     height: 80px;
-    width: 1440px;
+    justify-content: space-between;
     margin: 0 250px;
+    width: 1440px;
 }
 
 .paginas {
@@ -26,14 +26,16 @@
     background: none;
     border: none;
     color: var(--cinza);
+    cursor: pointer;
 }
 
 .butao__cadastrar {
-    padding: 0.5em 0.7em;
     background-color: var(--vermelho);
-    color: var(--branco);
     border: none;
     border-radius: 8px;
+    color: var(--branco);
+    cursor: pointer;
+    padding: 0.5em 0.7em;
 }
 
 

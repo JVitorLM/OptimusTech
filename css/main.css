@@ -1,0 +1,28 @@
+.container__main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre__nos {
+    color: var(--vermelho);
+    font-weight: 600;
+    margin-top: 8em;
+}
+
+.sobre__titulo {
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0.7em 0;
+}
+
+.sobre__conteudo {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 22em;
+    text-align: center;
+}
